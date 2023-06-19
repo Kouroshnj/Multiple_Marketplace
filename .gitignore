@@ -1,7 +1,4 @@
 node_modules
-config
-.gitignore
-config.env
 arguments.js
 .env
 coverage
