@@ -1,8 +1,10 @@
 node_modules
+.gitignore
+config
+config.env
+arguments.js
 .env
 coverage
-config
-arguments.js
 coverage.json
 typechain
 typechain-types
