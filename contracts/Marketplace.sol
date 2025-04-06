@@ -139,6 +139,7 @@ contract Marketplace is ERC1155Holder, ReentrancyGuard, ChainlinkOracle {
         SoldOut(marketItemId)
         NotCanceled(marketItemId)
         zeroAddress(marketItemId)
+        nonReentrant
     {
         uint Price = MarketItemInfo[marketItemId].price;
         address Seller = MarketItemInfo[marketItemId].seller;
