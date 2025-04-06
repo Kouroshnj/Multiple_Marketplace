@@ -323,7 +323,6 @@ contract Marketplace is ERC1155Holder, ReentrancyGuard, ChainlinkOracle {
         require(msg.sender == owner, "Contract Owner");
     }
 
-    //! zeroAmount
     function _zeroAmount(uint _amount) private pure {
         require(_amount > 0, "zero amount");
     }
@@ -335,4 +334,3 @@ contract Marketplace is ERC1155Holder, ReentrancyGuard, ChainlinkOracle {
         );
     }
 }
-// 2000000000000000000
